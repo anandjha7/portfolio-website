@@ -338,15 +338,16 @@
               </div>
             </div>
             <div class="column right">
-              <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                onSubmit="submit"
-                netlify-honeypot="bot-field"
-                action="/success.html"
+              <form action="https://api.web3forms.com/submit" method="POST"
+             name="contact"
+              method="POST"
+              data-netlify="true"
+              onSubmit="submit"
+              netlify-honeypot="bot-field"
+              action="/success.html" 
               >
-                <input type="bot-field" style="display: none" />
+               <input type="hidden" name="access_key" value="04b2e24d-cd2f-4144-a4ac-d6d659699f08">
+                <!-- <input type="bot-field" style="display: none" /> -->
                 <div class="fields">
                   <div class="field name">
                     <input
