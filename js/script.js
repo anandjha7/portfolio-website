@@ -223,14 +223,14 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Programmer", "Web Developer", "Designer"],
+    strings: ["Programmer", "Web Developer", "Java Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Programmer", "Web Developer", "Designer"],
+    strings: ["Programmer", "Web Developer", "Java Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -238,7 +238,7 @@ $(document).ready(function () {
 
   // owl carousel script
   $(".carousel").owlCarousel({
-    // strings: ["Programmer", "Web Developer", "Designer"],
+    // strings: ["Programmer", "Web Developer", "Java Developer"],
     margin: 20,
     loop: true,
     autoplay: true,
